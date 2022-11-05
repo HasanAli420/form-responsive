@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.flex-div{
+    display: flex;
+    gap: 10px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.btn{
+    background: #56ae57;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main .container form{
+    max-width: 450px;
+    height: 550px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main .container form h2{
+    text-align: center;
+    color: aqua;
+}
+
+.main .container form p{
+    color: #fff;
+    margin: 13px 0;
+    text-align: center;
+}
+
+.main .container form .inputbox input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.main .container form .inputbox label{
+    color: rgb(206, 228, 6);
+}
+
+
+.main .container form .privacy input{
+    margin-right: 10px;
+}
+
+.main .container form .privacy p{
+    color: aqua;
+    font-size: 20px;
+}
+
+.main .container form .privacy a{
+    color: red;
+}
